@@ -1,53 +1,48 @@
 # The Site Configuration
 
-# Import the theme
+# jekyll theme
 theme: jekyll-theme-chirpy
 
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
+# default baseurl
 baseurl: ''
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: es
+# language of the webpage
+lang: en
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# timezone in use
 timezone: Europe/Madrid
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Ismael Delgado                     # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Data Science and Cybersecurity   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+description: >-                           # used by seo meta and the atom feed
+  Data Science, Cybersecurity and Artificial
+  Intelligence portfolio
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+# current url
 url: 'https://ismaeldm.github.io/'
 
 github:
-  username: ismael-dm             # change to your github username
+  username: ismael-dm             # github username
 
 twitter:
-  username: ismaeldm99            # change to your twitter username
+  username: ismaeldm99            # twitter username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  # name for author of posts and copyright
+  name: Ismael Delgado
+  email: # no public email
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/ismaeldm99     
+    - https://github.com/ismael-dm       
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/ismaeldm
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -82,9 +77,9 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80
 
-# boolean type, the global switch for ToC in posts.
+# boolean type, the global switch for ToC in posts (Table Of Contents)
 toc: true
 
 disqus:
